@@ -1,0 +1,91 @@
+1.
+U = C/P
+pour T0: U = 2/6 = 0.333
+pour T1: U = 3/8 = 0.375
+pour T2: U = 4/24 = 0.166
+
+2.
+ch = C/D
+on a D = P car cette tâche (T0,T1,T2) est un tâche périodique à échéance sur requête
+
+alors: pour T0: ch = 2/6 = 0.333
+       pour T1: ch = 3/8 = 0.375
+       pour T2: ch = 4/24 = 0.166
+
+3. 
+TRi = fi − ri
+pour T0:
+TR0 = 2 - 0 = 2
+TR0 = 7 - 5 = 2
+TR0 = 13 - 11 = 2
+TR0 = 20 - 18 = 2
+
+pour T1:
+TR1 = 5 - 0 = 5
+TR1 = 11 - 8 = 3
+TR1 = 21 - 16 = 5
+
+pour T2:
+TR2 = 16 - 0 = 16
+
+4.
+L = D − C
+T0 :  L:	6   -	2   =	4
+T1 :  L: 	8   -	3   =	5
+T2 :  L:        24  -	4   =	20
+
+5.
+*Pour T0:
+La gigue de release relative:
+RRJi = maxj |(si,j − ri,j ) − (si,j−1 − ri,j−1 )|
+RRJ=18−0=18
+
+La gigue de release absolue:
+ARJi = maxj (si,j − ri,j ) − minj(si,j − ri,j )
+ARJ=0−0=0
+
+La gigue de fin relative :
+RFJi = max j |(fi,j − ri,j ) − (fi,j−1 − ri,j−1 )|
+RFJ=20−2=18
+
+La gigue de fin absolue :
+AFJi = maxj (fi,j − ri,j ) − minj (fi,j − ri,j )
+AFJ=2−2=0 
+
+---------------------------------------------------------
+
+*Pour T1:
+La gigue de release relative:
+RRJi = maxj |(si,j − ri,j ) − (si,j−1 − ri,j−1 )|
+RRJ=16−2=14
+
+La gigue de release absolue:
+ARJi = maxj (si,j − ri,j ) − minj(si,j − ri,j )
+ARJ=2−0=2
+
+La gigue de fin relative :
+RFJi = max j |(fi,j − ri,j ) − (fi,j−1 − ri,j−1 )|
+RFJ=21−5=16
+
+La gigue de fin absolue :
+AFJi = maxj (fi,j − ri,j ) − minj (fi,j − ri,j )
+AFJ=5−2=3
+
+-------------------------------------------------------
+
+*Pour T2:
+La gigue de release relative:
+RRJi = maxj |(si,j − ri,j ) − (si,j−1 − ri,j−1 )|
+RRJ=0
+
+La gigue de release absolue:
+ARJi = maxj (si,j − ri,j ) − minj(si,j − ri,j )
+ARJ=5−0=5
+
+La gigue de fin relative :
+RFJi = max j |(fi,j − ri,j ) − (fi,j−1 − ri,j−1 )|
+RFJ=0
+
+La gigue de fin absolue :
+AFJi = maxj (fi,j − ri,j ) − minj (fi,j − ri,j )
+AFJ=16−2=14
